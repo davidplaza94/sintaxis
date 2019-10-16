@@ -8,6 +8,6 @@ var mod=num1%num2;
 
 document.write("Suma: ",suma);
 document.write("Resta: ",resta);
-document.write("Multplicación: ",multip);
+document.write("Multiplicación: ",multip);
 document.write("División: ",div);
 document.write("Módulo: ",mod);
