@@ -6,8 +6,8 @@ var multip=num1*num2;
 var div=num1/num2;
 var mod=num1%num2;
 
-document.write("Suma:",suma);
-document.write("Resta:",resta);
-document.write("Multplicación:",multip);
-document.write("División:",div);
-document.write("Módulo:",mod);
+document.write("Suma: ",suma);
+document.write("Resta: ",resta);
+document.write("Multplicación: ",multip);
+document.write("División: ",div);
+document.write("Módulo: ",mod);
