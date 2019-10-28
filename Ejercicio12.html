@@ -23,18 +23,5 @@
     	var texto = "Total palabras: "+palabras.length+".<br>Primera palabra: "+palabras[0]+".<br>Ultima palabra: "+palabras[palabras.length-1]+".<br> El orden inverso es: '"+palabras.reverse()+"'.<br> De A la la Z: '"+palabras.sort(comparar)+"'.<br>De Z a A: '"+palabras.reverse()+"'.";
     	document.getElementById("ejercicio1").innerHTML = texto;
     }//FIN de la funcion 
-    
-    function comparar(a,b){
-        if(a.toLowerCase() <= b.toLowerCase()){
-           return -1;
-        } else {
-            return 1;
-        }
-    }
-    
-    function comparar2(a,b){
-        
-        return a.toLowerCase().localeCompare(b.toLowerCase());
-    }
 
 </script>
