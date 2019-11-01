@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 16</title>
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Formulario:</legend>
+            <label for="frase">Frase: </label>
+                <input type="text" id="frase">
+                <p id="textoError"></p>
+            <label for="telefono">Telefono: </label>
+                <input type="text" id="telefono">
+                <p id="telError"></p>
+            <label for="telefonoInter">Telefono Internacional: </label>
+                <input type="text" id="telefonoInter">
+                <p id="telInterError"></p>
+            <label for="fecha">Fecha: </label>
+                <input type="text" id="fecha">
+                <p id="fechaError"></p>
+            <label for="postal">Codigo Postal: </label>
+                <input type="text" id="postal">
+                <p id="postalError"></p>
+            <label for="email">Email: </label>
+                <input type="text" id="email">
+                <p id="emailError"></p>
+            <label for="real">Numero real: </label>
+                <input type="text" id="real">
+                <p id="realError"></p>
+            <label for="cuenta">Codigo Cuenta: </label>
+                <input type="text" id="cuenta">
+                <p id="cuentaError"></p>
+            <label for="dominio">Dominio: </label>
+                <input type="text" id="dominio">
+                <p id="dominioError"></p>
+            <label for="url">Url: </label>
+                <input type="text" id="url" placeholder="http://www.acme.es:80">
+                <p id="urlError"></p>
+            <label for="url2">Url: </label>
+                <input type="text" id="url2" placeholder="http://www.acme.es:80?param1=value1&param2=value2">
+                <p id="url2Error"></p>
+            <input type="button" value="Validar" onclick="validar()">
+            <input type="reset" value="Borrar">
+        </fieldset>
+    </form>
+
+    <script src="js/Ejercicio16.js"></script>
+</body>
+</html>
